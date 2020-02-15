@@ -1,0 +1,38 @@
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.container {
+    max-width: 1200px;
+    margin:auto;
+}
+header {
+    background: url(../img/hero.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 1024px;
+	
+    /* Set up proportionate scaling */
+    width: 100%;
+    height: auto;
+        
+    /* Set up positioning */
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    font-weight: black 900;
+}
+.flexNav {
+    display: flex;
+}
+.flexNav > li {
+    flex:1;
+    flex-basis: 50%; /*this tells each item to take 50% of with*/
+} 
+.flexNavM {
+    display:none;
+}
+
